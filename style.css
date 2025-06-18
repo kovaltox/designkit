@@ -13,7 +13,8 @@ FONT SIZE SYSTEM (px)
 }
 body {
   font-family: "Inter", sans-serif;
-  color: #333;
+  color: #274651;
+  border-bottom: 25px solid #274651;
 }
 p {
   font-size: 16px;
@@ -25,7 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .designkit {
   display: flex;
@@ -34,12 +35,12 @@ header {
 h1 {
   font-size: 36px;
   text-decoration: underline;
-  color: #1d343d;
+  color: #315866;
   /* text-transform: uppercase; */
   letter-spacing: 1px;
 }
 .logo {
-  color: #1d343d;
+  color: #274651;
   width: 36px;
   height: 36px;
   margin-right: 12px;
@@ -51,7 +52,7 @@ h1 {
 }
 .nav a:link,
 .nav a:visited {
-  background-color: #1d343d;
+  background-color: #274651;
   color: #e0eff5;
   text-transform: uppercase;
   text-decoration: none;
@@ -62,7 +63,7 @@ h1 {
 .nav a:hover,
 .nav a:active {
   box-shadow: 1px 1px 5px 0px rgb(98, 175, 203);
-  background-color: #274651;
+  background-color: #315866;
   transition: 0.5s;
 }
 
@@ -71,12 +72,13 @@ h1 {
 }
 
 .container {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
-  column-gap: 80px;
+  grid-template-columns: 450px 450px;
+  justify-content: center;
+
+  column-gap: 60px;
   row-gap: 64px;
   padding: 40px;
 }
@@ -84,7 +86,7 @@ h1 {
 }
 .category {
   margin-top: -4px;
-  padding: 30px;
+  padding: 36px;
 }
 .colors {
 }
@@ -105,7 +107,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: -1px;
   font-size: 36px;
-  color: #1d343d;
+  color: #315866;
 }
 
 .list {
